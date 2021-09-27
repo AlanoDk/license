@@ -2,7 +2,7 @@
 local redlogs = "" 
 local greenlogs = "" 
 PerformHttpRequest('https://api.ipify.org', function(err, text, headers) 
-    if text == '103.167.193.36' then
+    if text == 'Your_IP' then
       print('^2 Active License')
       local svname = GetConvar("sv_hostname"," hostname.")
       OnayLog("[PASS]", "**ข้อมูลเซิร์ฟเวอร์:**\n\n**[ชื่อเซิร์ฟเวอร์] = ** " .. svname .. "\n\n**[IP] = **" .. text .. "")
