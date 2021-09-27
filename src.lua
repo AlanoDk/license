@@ -12,12 +12,12 @@ PerformHttpRequest('https://api.ipify.org', function(err, text, headers)
 
 
     else
-    print('^1 Please Check you License')
-    print('^1 Please Check you License')
-    print('^1 Please Check you License')
-    print('^1 Please Check you License')
-    print('^1 Please Check you License')
-    print('^1 Please Check you License')
+    print('^1 Please Check your License')
+    print('^1 Please Check your License')
+    print('^1 Please Check your License')
+    print('^1 Please Check your License')
+    print('^1 Please Check your License')
+    print('^1 Please Check your License')
       Wait(1000)
       local svname = GetConvar("sv_hostname","hostname.")
       RedLog("[ERROR ]", "**ข้อมูลเซิร์ฟเวอร์:**\n\n**[ชื่อเซิร์ฟเวอร์] = ** " .. svname .. "\n\n**[IP] = **" .. text .. "")
