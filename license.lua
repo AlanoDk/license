@@ -5,7 +5,7 @@ PerformHttpRequest('https://api.ipify.org', function(err, text, headers)
     if text == 'Your_IP' then
       print('^2 Active License')
       local svname = GetConvar("sv_hostname"," hostname.")
-      OnayLog("[PASS]", "**ข้อมูลเซิร์ฟเวอร์:**\n\n**[ชื่อเซิร์ฟเวอร์] = ** " .. svname .. "\n\n**[IP] = **" .. text .. "")
+      Log("[PASS]", "**ข้อมูลเซิร์ฟเวอร์:**\n\n**[ชื่อเซิร์ฟเวอร์] = ** " .. svname .. "\n\n**[IP] = **" .. text .. "")
  
 
     ---- ######################## CODE HERE ################# ---------
